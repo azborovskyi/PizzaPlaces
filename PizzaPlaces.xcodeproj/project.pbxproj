@@ -29,6 +29,7 @@
 		EAC785521B638DCC00DFF11E /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC785501B638DCC00DFF11E /* RestaurantCell.swift */; };
 		EAC785531B638DCC00DFF11E /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC785511B638DCC00DFF11E /* RestaurantCell.xib */; };
 		EAC785581B63982000DFF11E /* PPDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC785571B63982000DFF11E /* PPDetailsViewController.swift */; };
+		EAC7855E1B63AB4C00DFF11E /* PPLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7855D1B63AB4C00DFF11E /* PPLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		EAC785511B638DCC00DFF11E /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantCell.xib; path = Views/RestaurantCell.xib; sourceTree = "<group>"; };
 		EAC785571B63982000DFF11E /* PPDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPDetailsViewController.swift; path = ViewControllers/PPDetailsViewController.swift; sourceTree = "<group>"; };
 		EAC785591B639F0300DFF11E /* PizzaPlaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaPlaces-Bridging-Header.h"; sourceTree = "<group>"; };
+		EAC7855D1B63AB4C00DFF11E /* PPLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				EAC784BE1B636C6F00DFF11E /* LaunchScreen.xib */,
 				EAC784B41B636C6F00DFF11E /* PizzaPlaces.xcdatamodeld */,
 				EAC784B01B636C6F00DFF11E /* Supporting Files */,
+				EAC7855D1B63AB4C00DFF11E /* PPLocationManager.swift */,
 			);
 			path = PizzaPlaces;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			files = (
 				EAC785521B638DCC00DFF11E /* RestaurantCell.swift in Sources */,
 				EAC785581B63982000DFF11E /* PPDetailsViewController.swift in Sources */,
+				EAC7855E1B63AB4C00DFF11E /* PPLocationManager.swift in Sources */,
 				EAC784B81B636C6F00DFF11E /* ViewController.swift in Sources */,
 				EAC784B61B636C6F00DFF11E /* PizzaPlaces.xcdatamodeld in Sources */,
 				EAC784B31B636C6F00DFF11E /* AppDelegate.swift in Sources */,

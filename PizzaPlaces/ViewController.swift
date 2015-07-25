@@ -13,8 +13,10 @@ import SwiftyJSON
 import CoreData
 import MBProgressHUD
 
+/// Key for notification center
 let kNotificationModelUpdated = "ModelUpdated"
 
+/// View controller with tableview containing places cells
 class ViewController: UITableViewController, CLLocationManagerDelegate {
 
     ///
@@ -28,7 +30,8 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
     
     let kCellIdentifier = "RestaurantCell"
     
-    var locationManager: CLLocationManager?
+    /// Location Manager
+    var locationManager: PPLocationManager?
     
     var fetchResultsController: NSFetchedResultsController?
     
@@ -36,15 +39,8 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.locationManager = CLLocationManager()
-        self.locationManager?.delegate = self
+        configureLocationListener()
         
-        let code = CLLocationManager.authorizationStatus()
-        
-        if (code == CLAuthorizationStatus.NotDetermined) {
-            self.locationManager?.requestWhenInUseAuthorization()
-        }
-
         let cellXib = UINib(nibName: "RestaurantCell", bundle: nil)
         self.tableView.registerNib(cellXib, forCellReuseIdentifier: kCellIdentifier);
         
@@ -54,33 +50,42 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
     }
     
     // ==========
+    func configureLocationListener() {
+        let kUpatesIntervalSeconds:NSTimeInterval = 60 // 1 minute
+        let kUpdatesDistanceMeters:Double = 1000
+        
+        locationManager = PPLocationManager()
+        
+        // Setup location handling pipe
+        self.locationManager!.authorizationSignalProducer()
+            |> skipRepeats() { a, b in a == b }
+            |> on(next: { status in
+                if (status == CLAuthorizationStatus.Denied) {
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        UIAlertView(title: "Please authorize the location manager access", message: nil, delegate: nil, cancelButtonTitle: "OK").show()
+                    })
+                }
+            })
+            |> then(locationManager!.locationUpdateSignalProducer())
+            |> skipRepeats() { locA, locB in locA.distanceFromLocation(locB) > kUpdatesDistanceMeters }
+            |> throttle(kUpatesIntervalSeconds, onScheduler: QueueScheduler.mainQueueScheduler)
+            |> start(next: {
+                [unowned self]
+                newLocation in
+                self.fetchRestaurants(newLocation.coordinate)
+            })
+    }
+    
+    // ==========
     deinit {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
-    // ==========
-    func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {}
-    
-    // ==========
-    func locationManager(manager: CLLocationManager!, didUpdateToLocation newLocation: CLLocation!, fromLocation oldLocation: CLLocation!) {
-        fetchRestaurants(newLocation.coordinate)
-        // One update is enough for now
-        self.locationManager?.stopUpdatingLocation()
-    }
-    
-    // ==========
-    func locationManager(manager: CLLocationManager!, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        if (status == CLAuthorizationStatus.AuthorizedWhenInUse
-            || status == CLAuthorizationStatus.AuthorizedAlways) {
-            self.locationManager?.startUpdatingLocation()
-        }
-    }
 
     // ==========
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
     
     // ==========
     func parseJSONResultFromData(data: NSData) -> [Dictionary<VenueKeys,String>] {
@@ -208,6 +213,11 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
     }
     
     // ==========
+    func locationSignal() {
+        
+    }
+    
+    // ==========
     // MARK: - TableView
     // ==========
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -254,5 +264,8 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
         }
     }
     
+    
+    
+
     
 }
