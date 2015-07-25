@@ -15,34 +15,6 @@
 		EAC784BD1B636C6F00DFF11E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC784BC1B636C6F00DFF11E /* Images.xcassets */; };
 		EAC784C01B636C6F00DFF11E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC784BE1B636C6F00DFF11E /* LaunchScreen.xib */; };
 		EAC784CC1B636C6F00DFF11E /* PizzaPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC784CB1B636C6F00DFF11E /* PizzaPlacesTests.swift */; };
-		EAC785141B63717E00DFF11E /* CLLocation+isEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784D91B63717E00DFF11E /* CLLocation+isEmpty.m */; };
-		EAC785151B63717E00DFF11E /* CLLocation+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784DB1B63717E00DFF11E /* CLLocation+Testing.m */; };
-		EAC785161B63717E00DFF11E /* NSDictionary+PList.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784DD1B63717E00DFF11E /* NSDictionary+PList.m */; };
-		EAC785171B63717E00DFF11E /* NSString+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784DF1B63717E00DFF11E /* NSString+Location.m */; };
-		EAC785181B63717E00DFF11E /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784E11B63717E00DFF11E /* NSString+Utils.m */; };
-		EAC785191B63717E00DFF11E /* UXRBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784E51B63717E00DFF11E /* UXRBaseModel.m */; };
-		EAC7851A1B63717E00DFF11E /* UXRExploreQueryBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784E71B63717E00DFF11E /* UXRExploreQueryBaseModel.m */; };
-		EAC7851B1B63717E00DFF11E /* UXRFourSquareAttributesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784E91B63717E00DFF11E /* UXRFourSquareAttributesModel.m */; };
-		EAC7851C1B63717E00DFF11E /* UXRFourSquareCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784EB1B63717E00DFF11E /* UXRFourSquareCategoryModel.m */; };
-		EAC7851D1B63717E00DFF11E /* UXRFourSquareContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784ED1B63717E00DFF11E /* UXRFourSquareContactModel.m */; };
-		EAC7851E1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784EF1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.m */; };
-		EAC7851F1B63717E00DFF11E /* UXRFourSquareGeoCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784F11B63717E00DFF11E /* UXRFourSquareGeoCodeModel.m */; };
-		EAC785201B63717E00DFF11E /* UXRFourSquareHoursModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784F31B63717E00DFF11E /* UXRFourSquareHoursModel.m */; };
-		EAC785211B63717E00DFF11E /* UXRFourSquareLikesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784F51B63717E00DFF11E /* UXRFourSquareLikesModel.m */; };
-		EAC785221B63717E00DFF11E /* UXRFourSquareLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784F71B63717E00DFF11E /* UXRFourSquareLocationModel.m */; };
-		EAC785231B63717E00DFF11E /* UXRFourSquareMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784F91B63717E00DFF11E /* UXRFourSquareMenuModel.m */; };
-		EAC785241B63717E00DFF11E /* UXRFourSquareOpenTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784FB1B63717E00DFF11E /* UXRFourSquareOpenTime.m */; };
-		EAC785251B63717E00DFF11E /* UXRFourSquarePhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784FD1B63717E00DFF11E /* UXRFourSquarePhotoModel.m */; };
-		EAC785261B63717E00DFF11E /* UXRFourSquarePriceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC784FF1B63717E00DFF11E /* UXRFourSquarePriceModel.m */; };
-		EAC785271B63717E00DFF11E /* UXRFourSquareReservationsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785011B63717E00DFF11E /* UXRFourSquareReservationsModel.m */; };
-		EAC785281B63717E00DFF11E /* UXRFourSquareRestaurantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785031B63717E00DFF11E /* UXRFourSquareRestaurantModel.m */; };
-		EAC785291B63717E00DFF11E /* UXRFourSquareStatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785051B63717E00DFF11E /* UXRFourSquareStatsModel.m */; };
-		EAC7852A1B63717E00DFF11E /* UXRFourSquareTimeFramesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785071B63717E00DFF11E /* UXRFourSquareTimeFramesModel.m */; };
-		EAC7852B1B63717E00DFF11E /* UXRFourSquareTipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785091B63717E00DFF11E /* UXRFourSquareTipModel.m */; };
-		EAC7852C1B63717E00DFF11E /* UXRFourSquareUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7850B1B63717E00DFF11E /* UXRFourSquareUserModel.m */; };
-		EAC7852D1B63717E00DFF11E /* UXRJSONDeserializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7850D1B63717E00DFF11E /* UXRJSONDeserializableObject.m */; };
-		EAC7852E1B63717E00DFF11E /* UXRBaseNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785111B63717E00DFF11E /* UXRBaseNetworkingEngine.m */; };
-		EAC7852F1B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */; };
 		EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785381B6376C700DFF11E /* CoreLocation.framework */; };
 		EAC7853D1B63795B00DFF11E /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */; };
 		EAC785411B637ABD00DFF11E /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853E1B637ABD00DFF11E /* Box.framework */; };
@@ -51,6 +23,9 @@
 		EAC785451B637ADF00DFF11E /* Box.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853E1B637ABD00DFF11E /* Box.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EAC785461B637ADF00DFF11E /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EAC785471B637ADF00DFF11E /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785401B637ABD00DFF11E /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAC7854A1B63815800DFF11E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785491B63815800DFF11E /* SwiftyJSON.framework */; };
+		EAC7854C1B63815F00DFF11E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7854B1B63815F00DFF11E /* Restaurant.swift */; };
+		EAC7854D1B6381DD00DFF11E /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785491B63815800DFF11E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				EAC7854D1B6381DD00DFF11E /* SwiftyJSON.framework in Embed Frameworks */,
 				EAC785451B637ADF00DFF11E /* Box.framework in Embed Frameworks */,
 				EAC785461B637ADF00DFF11E /* ReactiveCocoa.framework in Embed Frameworks */,
 				EAC785471B637ADF00DFF11E /* Result.framework in Embed Frameworks */,
@@ -94,69 +70,13 @@
 		EAC784C51B636C6F00DFF11E /* PizzaPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC784CA1B636C6F00DFF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC784CB1B636C6F00DFF11E /* PizzaPlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPlacesTests.swift; sourceTree = "<group>"; };
-		EAC784D81B63717E00DFF11E /* CLLocation+isEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+isEmpty.h"; sourceTree = "<group>"; };
-		EAC784D91B63717E00DFF11E /* CLLocation+isEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+isEmpty.m"; sourceTree = "<group>"; };
-		EAC784DA1B63717E00DFF11E /* CLLocation+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Testing.h"; sourceTree = "<group>"; };
-		EAC784DB1B63717E00DFF11E /* CLLocation+Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Testing.m"; sourceTree = "<group>"; };
-		EAC784DC1B63717E00DFF11E /* NSDictionary+PList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PList.h"; sourceTree = "<group>"; };
-		EAC784DD1B63717E00DFF11E /* NSDictionary+PList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PList.m"; sourceTree = "<group>"; };
-		EAC784DE1B63717E00DFF11E /* NSString+Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Location.h"; sourceTree = "<group>"; };
-		EAC784DF1B63717E00DFF11E /* NSString+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Location.m"; sourceTree = "<group>"; };
-		EAC784E01B63717E00DFF11E /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
-		EAC784E11B63717E00DFF11E /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
-		EAC784E21B63717E00DFF11E /* FourSquareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareKit.h; sourceTree = "<group>"; };
-		EAC784E41B63717E00DFF11E /* UXRBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRBaseModel.h; sourceTree = "<group>"; };
-		EAC784E51B63717E00DFF11E /* UXRBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRBaseModel.m; sourceTree = "<group>"; };
-		EAC784E61B63717E00DFF11E /* UXRExploreQueryBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRExploreQueryBaseModel.h; sourceTree = "<group>"; };
-		EAC784E71B63717E00DFF11E /* UXRExploreQueryBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRExploreQueryBaseModel.m; sourceTree = "<group>"; };
-		EAC784E81B63717E00DFF11E /* UXRFourSquareAttributesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareAttributesModel.h; sourceTree = "<group>"; };
-		EAC784E91B63717E00DFF11E /* UXRFourSquareAttributesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareAttributesModel.m; sourceTree = "<group>"; };
-		EAC784EA1B63717E00DFF11E /* UXRFourSquareCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareCategoryModel.h; sourceTree = "<group>"; };
-		EAC784EB1B63717E00DFF11E /* UXRFourSquareCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareCategoryModel.m; sourceTree = "<group>"; };
-		EAC784EC1B63717E00DFF11E /* UXRFourSquareContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareContactModel.h; sourceTree = "<group>"; };
-		EAC784ED1B63717E00DFF11E /* UXRFourSquareContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareContactModel.m; sourceTree = "<group>"; };
-		EAC784EE1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareExploreResultsModel.h; sourceTree = "<group>"; };
-		EAC784EF1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareExploreResultsModel.m; sourceTree = "<group>"; };
-		EAC784F01B63717E00DFF11E /* UXRFourSquareGeoCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareGeoCodeModel.h; sourceTree = "<group>"; };
-		EAC784F11B63717E00DFF11E /* UXRFourSquareGeoCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareGeoCodeModel.m; sourceTree = "<group>"; };
-		EAC784F21B63717E00DFF11E /* UXRFourSquareHoursModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareHoursModel.h; sourceTree = "<group>"; };
-		EAC784F31B63717E00DFF11E /* UXRFourSquareHoursModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareHoursModel.m; sourceTree = "<group>"; };
-		EAC784F41B63717E00DFF11E /* UXRFourSquareLikesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareLikesModel.h; sourceTree = "<group>"; };
-		EAC784F51B63717E00DFF11E /* UXRFourSquareLikesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareLikesModel.m; sourceTree = "<group>"; };
-		EAC784F61B63717E00DFF11E /* UXRFourSquareLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareLocationModel.h; sourceTree = "<group>"; };
-		EAC784F71B63717E00DFF11E /* UXRFourSquareLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareLocationModel.m; sourceTree = "<group>"; };
-		EAC784F81B63717E00DFF11E /* UXRFourSquareMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareMenuModel.h; sourceTree = "<group>"; };
-		EAC784F91B63717E00DFF11E /* UXRFourSquareMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareMenuModel.m; sourceTree = "<group>"; };
-		EAC784FA1B63717E00DFF11E /* UXRFourSquareOpenTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareOpenTime.h; sourceTree = "<group>"; };
-		EAC784FB1B63717E00DFF11E /* UXRFourSquareOpenTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareOpenTime.m; sourceTree = "<group>"; };
-		EAC784FC1B63717E00DFF11E /* UXRFourSquarePhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquarePhotoModel.h; sourceTree = "<group>"; };
-		EAC784FD1B63717E00DFF11E /* UXRFourSquarePhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquarePhotoModel.m; sourceTree = "<group>"; };
-		EAC784FE1B63717E00DFF11E /* UXRFourSquarePriceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquarePriceModel.h; sourceTree = "<group>"; };
-		EAC784FF1B63717E00DFF11E /* UXRFourSquarePriceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquarePriceModel.m; sourceTree = "<group>"; };
-		EAC785001B63717E00DFF11E /* UXRFourSquareReservationsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareReservationsModel.h; sourceTree = "<group>"; };
-		EAC785011B63717E00DFF11E /* UXRFourSquareReservationsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareReservationsModel.m; sourceTree = "<group>"; };
-		EAC785021B63717E00DFF11E /* UXRFourSquareRestaurantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareRestaurantModel.h; sourceTree = "<group>"; };
-		EAC785031B63717E00DFF11E /* UXRFourSquareRestaurantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareRestaurantModel.m; sourceTree = "<group>"; };
-		EAC785041B63717E00DFF11E /* UXRFourSquareStatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareStatsModel.h; sourceTree = "<group>"; };
-		EAC785051B63717E00DFF11E /* UXRFourSquareStatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareStatsModel.m; sourceTree = "<group>"; };
-		EAC785061B63717E00DFF11E /* UXRFourSquareTimeFramesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareTimeFramesModel.h; sourceTree = "<group>"; };
-		EAC785071B63717E00DFF11E /* UXRFourSquareTimeFramesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareTimeFramesModel.m; sourceTree = "<group>"; };
-		EAC785081B63717E00DFF11E /* UXRFourSquareTipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareTipModel.h; sourceTree = "<group>"; };
-		EAC785091B63717E00DFF11E /* UXRFourSquareTipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareTipModel.m; sourceTree = "<group>"; };
-		EAC7850A1B63717E00DFF11E /* UXRFourSquareUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareUserModel.h; sourceTree = "<group>"; };
-		EAC7850B1B63717E00DFF11E /* UXRFourSquareUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareUserModel.m; sourceTree = "<group>"; };
-		EAC7850C1B63717E00DFF11E /* UXRJSONDeserializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRJSONDeserializableObject.h; sourceTree = "<group>"; };
-		EAC7850D1B63717E00DFF11E /* UXRJSONDeserializableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRJSONDeserializableObject.m; sourceTree = "<group>"; };
-		EAC7850E1B63717E00DFF11E /* UXRJSONSerializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRJSONSerializableObject.h; sourceTree = "<group>"; };
-		EAC785101B63717E00DFF11E /* UXRBaseNetworkingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRBaseNetworkingEngine.h; sourceTree = "<group>"; };
-		EAC785111B63717E00DFF11E /* UXRBaseNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRBaseNetworkingEngine.m; sourceTree = "<group>"; };
-		EAC785121B63717E00DFF11E /* UXRFourSquareNetworkingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareNetworkingEngine.h; sourceTree = "<group>"; };
-		EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareNetworkingEngine.m; sourceTree = "<group>"; };
 		EAC785381B6376C700DFF11E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
 		EAC7853E1B637ABD00DFF11E /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
 		EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		EAC785401B637ABD00DFF11E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		EAC785491B63815800DFF11E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		EAC7854B1B63815F00DFF11E /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = DataModel/Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +86,7 @@
 			files = (
 				EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */,
 				EAC785411B637ABD00DFF11E /* Box.framework in Frameworks */,
+				EAC7854A1B63815800DFF11E /* SwiftyJSON.framework in Frameworks */,
 				EAC785431B637ABD00DFF11E /* Result.framework in Frameworks */,
 				90DABA9C7F69C5D6B4296A1D /* libPods.a in Frameworks */,
 				EAC785421B637ABD00DFF11E /* ReactiveCocoa.framework in Frameworks */,
@@ -194,6 +115,7 @@
 		2B3BF11A0F59AD0469439FA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAC785491B63815800DFF11E /* SwiftyJSON.framework */,
 				EAC7853E1B637ABD00DFF11E /* Box.framework */,
 				EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */,
 				EAC785401B637ABD00DFF11E /* Result.framework */,
@@ -227,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				EAC785481B637E2600DFF11E /* Model */,
-				EAC784D61B63717E00DFF11E /* FourSquareKit */,
 				EAC784B21B636C6F00DFF11E /* AppDelegate.swift */,
 				EAC784B71B636C6F00DFF11E /* ViewController.swift */,
 				EAC784B91B636C6F00DFF11E /* Main.storyboard */,
@@ -265,98 +186,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAC784D61B63717E00DFF11E /* FourSquareKit */ = {
-			isa = PBXGroup;
-			children = (
-				EAC784D71B63717E00DFF11E /* categories */,
-				EAC784E21B63717E00DFF11E /* FourSquareKit.h */,
-				EAC784E31B63717E00DFF11E /* models */,
-				EAC7850F1B63717E00DFF11E /* networking */,
-			);
-			path = FourSquareKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		EAC784D71B63717E00DFF11E /* categories */ = {
-			isa = PBXGroup;
-			children = (
-				EAC784D81B63717E00DFF11E /* CLLocation+isEmpty.h */,
-				EAC784D91B63717E00DFF11E /* CLLocation+isEmpty.m */,
-				EAC784DA1B63717E00DFF11E /* CLLocation+Testing.h */,
-				EAC784DB1B63717E00DFF11E /* CLLocation+Testing.m */,
-				EAC784DC1B63717E00DFF11E /* NSDictionary+PList.h */,
-				EAC784DD1B63717E00DFF11E /* NSDictionary+PList.m */,
-				EAC784DE1B63717E00DFF11E /* NSString+Location.h */,
-				EAC784DF1B63717E00DFF11E /* NSString+Location.m */,
-				EAC784E01B63717E00DFF11E /* NSString+Utils.h */,
-				EAC784E11B63717E00DFF11E /* NSString+Utils.m */,
-			);
-			path = categories;
-			sourceTree = "<group>";
-		};
-		EAC784E31B63717E00DFF11E /* models */ = {
-			isa = PBXGroup;
-			children = (
-				EAC784E41B63717E00DFF11E /* UXRBaseModel.h */,
-				EAC784E51B63717E00DFF11E /* UXRBaseModel.m */,
-				EAC784E61B63717E00DFF11E /* UXRExploreQueryBaseModel.h */,
-				EAC784E71B63717E00DFF11E /* UXRExploreQueryBaseModel.m */,
-				EAC784E81B63717E00DFF11E /* UXRFourSquareAttributesModel.h */,
-				EAC784E91B63717E00DFF11E /* UXRFourSquareAttributesModel.m */,
-				EAC784EA1B63717E00DFF11E /* UXRFourSquareCategoryModel.h */,
-				EAC784EB1B63717E00DFF11E /* UXRFourSquareCategoryModel.m */,
-				EAC784EC1B63717E00DFF11E /* UXRFourSquareContactModel.h */,
-				EAC784ED1B63717E00DFF11E /* UXRFourSquareContactModel.m */,
-				EAC784EE1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.h */,
-				EAC784EF1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.m */,
-				EAC784F01B63717E00DFF11E /* UXRFourSquareGeoCodeModel.h */,
-				EAC784F11B63717E00DFF11E /* UXRFourSquareGeoCodeModel.m */,
-				EAC784F21B63717E00DFF11E /* UXRFourSquareHoursModel.h */,
-				EAC784F31B63717E00DFF11E /* UXRFourSquareHoursModel.m */,
-				EAC784F41B63717E00DFF11E /* UXRFourSquareLikesModel.h */,
-				EAC784F51B63717E00DFF11E /* UXRFourSquareLikesModel.m */,
-				EAC784F61B63717E00DFF11E /* UXRFourSquareLocationModel.h */,
-				EAC784F71B63717E00DFF11E /* UXRFourSquareLocationModel.m */,
-				EAC784F81B63717E00DFF11E /* UXRFourSquareMenuModel.h */,
-				EAC784F91B63717E00DFF11E /* UXRFourSquareMenuModel.m */,
-				EAC784FA1B63717E00DFF11E /* UXRFourSquareOpenTime.h */,
-				EAC784FB1B63717E00DFF11E /* UXRFourSquareOpenTime.m */,
-				EAC784FC1B63717E00DFF11E /* UXRFourSquarePhotoModel.h */,
-				EAC784FD1B63717E00DFF11E /* UXRFourSquarePhotoModel.m */,
-				EAC784FE1B63717E00DFF11E /* UXRFourSquarePriceModel.h */,
-				EAC784FF1B63717E00DFF11E /* UXRFourSquarePriceModel.m */,
-				EAC785001B63717E00DFF11E /* UXRFourSquareReservationsModel.h */,
-				EAC785011B63717E00DFF11E /* UXRFourSquareReservationsModel.m */,
-				EAC785021B63717E00DFF11E /* UXRFourSquareRestaurantModel.h */,
-				EAC785031B63717E00DFF11E /* UXRFourSquareRestaurantModel.m */,
-				EAC785041B63717E00DFF11E /* UXRFourSquareStatsModel.h */,
-				EAC785051B63717E00DFF11E /* UXRFourSquareStatsModel.m */,
-				EAC785061B63717E00DFF11E /* UXRFourSquareTimeFramesModel.h */,
-				EAC785071B63717E00DFF11E /* UXRFourSquareTimeFramesModel.m */,
-				EAC785081B63717E00DFF11E /* UXRFourSquareTipModel.h */,
-				EAC785091B63717E00DFF11E /* UXRFourSquareTipModel.m */,
-				EAC7850A1B63717E00DFF11E /* UXRFourSquareUserModel.h */,
-				EAC7850B1B63717E00DFF11E /* UXRFourSquareUserModel.m */,
-				EAC7850C1B63717E00DFF11E /* UXRJSONDeserializableObject.h */,
-				EAC7850D1B63717E00DFF11E /* UXRJSONDeserializableObject.m */,
-				EAC7850E1B63717E00DFF11E /* UXRJSONSerializableObject.h */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		EAC7850F1B63717E00DFF11E /* networking */ = {
-			isa = PBXGroup;
-			children = (
-				EAC785101B63717E00DFF11E /* UXRBaseNetworkingEngine.h */,
-				EAC785111B63717E00DFF11E /* UXRBaseNetworkingEngine.m */,
-				EAC785121B63717E00DFF11E /* UXRFourSquareNetworkingEngine.h */,
-				EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */,
-			);
-			path = networking;
-			sourceTree = "<group>";
-		};
 		EAC785481B637E2600DFF11E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EAC7854B1B63815F00DFF11E /* Restaurant.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -498,37 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC7852E1B63717E00DFF11E /* UXRBaseNetworkingEngine.m in Sources */,
 				EAC784B81B636C6F00DFF11E /* ViewController.swift in Sources */,
-				EAC7851A1B63717E00DFF11E /* UXRExploreQueryBaseModel.m in Sources */,
-				EAC785261B63717E00DFF11E /* UXRFourSquarePriceModel.m in Sources */,
-				EAC785201B63717E00DFF11E /* UXRFourSquareHoursModel.m in Sources */,
-				EAC785241B63717E00DFF11E /* UXRFourSquareOpenTime.m in Sources */,
-				EAC785141B63717E00DFF11E /* CLLocation+isEmpty.m in Sources */,
-				EAC7851D1B63717E00DFF11E /* UXRFourSquareContactModel.m in Sources */,
-				EAC7852D1B63717E00DFF11E /* UXRJSONDeserializableObject.m in Sources */,
-				EAC7852C1B63717E00DFF11E /* UXRFourSquareUserModel.m in Sources */,
-				EAC7851B1B63717E00DFF11E /* UXRFourSquareAttributesModel.m in Sources */,
-				EAC785191B63717E00DFF11E /* UXRBaseModel.m in Sources */,
-				EAC7852F1B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m in Sources */,
 				EAC784B61B636C6F00DFF11E /* PizzaPlaces.xcdatamodeld in Sources */,
-				EAC7851C1B63717E00DFF11E /* UXRFourSquareCategoryModel.m in Sources */,
-				EAC785271B63717E00DFF11E /* UXRFourSquareReservationsModel.m in Sources */,
 				EAC784B31B636C6F00DFF11E /* AppDelegate.swift in Sources */,
-				EAC7852A1B63717E00DFF11E /* UXRFourSquareTimeFramesModel.m in Sources */,
-				EAC785151B63717E00DFF11E /* CLLocation+Testing.m in Sources */,
-				EAC785161B63717E00DFF11E /* NSDictionary+PList.m in Sources */,
-				EAC7851E1B63717E00DFF11E /* UXRFourSquareExploreResultsModel.m in Sources */,
-				EAC785221B63717E00DFF11E /* UXRFourSquareLocationModel.m in Sources */,
-				EAC785171B63717E00DFF11E /* NSString+Location.m in Sources */,
-				EAC785231B63717E00DFF11E /* UXRFourSquareMenuModel.m in Sources */,
-				EAC785181B63717E00DFF11E /* NSString+Utils.m in Sources */,
-				EAC785251B63717E00DFF11E /* UXRFourSquarePhotoModel.m in Sources */,
-				EAC7851F1B63717E00DFF11E /* UXRFourSquareGeoCodeModel.m in Sources */,
-				EAC785291B63717E00DFF11E /* UXRFourSquareStatsModel.m in Sources */,
-				EAC785211B63717E00DFF11E /* UXRFourSquareLikesModel.m in Sources */,
-				EAC785281B63717E00DFF11E /* UXRFourSquareRestaurantModel.m in Sources */,
-				EAC7852B1B63717E00DFF11E /* UXRFourSquareTipModel.m in Sources */,
+				EAC7854C1B63815F00DFF11E /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

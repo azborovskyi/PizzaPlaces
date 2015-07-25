@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 import ReactiveCocoa
+import SwiftyJSON
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
@@ -53,9 +54,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func fetchRestaurants(coordinate: CLLocationCoordinate2D) {
         if let requestSignal = searchRequestForNearbyRestaurants(coordinate) {
             requestSignal.start(next: {
-                data, URLResponse in
-//                    let strJson = NSString(data: data, encoding: NSUTF8StringEncoding)!
-                    return parseJSONResultFromData(data)
+                [unowned self] data, URLResponse in
+                    return self.parseJSONResultFromData(data)
                 })
 //                |> observeOn(UIScheduler())
             
@@ -87,13 +87,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     
-    func parseJSONResultFromData(data: NSData) ->  {
-        var parseError: NSError?
-        let parsedObject: AnyObject? = NSJSONSerialization.JSONObjectWithData(data,
-            options: NSJSONReadingOptions.AllowFragments,
-            error:&parseError)
- 
+    func parseJSONResultFromData(data: NSData) -> [Dictionary<String,String>]? {
+        let json = JSON(data: data)
+        let resultsArr = [Dictionary<String,String>]()
+        if let venues = json["response"]["venues"].array {
+            for venue in venues {
+                var venueDict = Dictionary<String,String>()
+                if let name = venue["name"].string {
+                    venueDict["name"] = name
+                }
+            }
+        }
         
+        return resultsArr
     }
 }
 
