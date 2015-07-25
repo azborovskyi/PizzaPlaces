@@ -45,6 +45,12 @@
 		EAC7852F1B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */; };
 		EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785381B6376C700DFF11E /* CoreLocation.framework */; };
 		EAC7853D1B63795B00DFF11E /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */; };
+		EAC785411B637ABD00DFF11E /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853E1B637ABD00DFF11E /* Box.framework */; };
+		EAC785421B637ABD00DFF11E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */; };
+		EAC785431B637ABD00DFF11E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785401B637ABD00DFF11E /* Result.framework */; };
+		EAC785451B637ADF00DFF11E /* Box.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853E1B637ABD00DFF11E /* Box.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAC785461B637ADF00DFF11E /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAC785471B637ADF00DFF11E /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785401B637ABD00DFF11E /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,22 @@
 			remoteInfo = PizzaPlaces;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAC785441B637ACD00DFF11E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EAC785451B637ADF00DFF11E /* Box.framework in Embed Frameworks */,
+				EAC785461B637ADF00DFF11E /* ReactiveCocoa.framework in Embed Frameworks */,
+				EAC785471B637ADF00DFF11E /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D7FDFA1397FD778E206B26D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +154,9 @@
 		EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareNetworkingEngine.m; sourceTree = "<group>"; };
 		EAC785381B6376C700DFF11E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
+		EAC7853E1B637ABD00DFF11E /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
+		EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		EAC785401B637ABD00DFF11E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */,
+				EAC785411B637ABD00DFF11E /* Box.framework in Frameworks */,
+				EAC785431B637ABD00DFF11E /* Result.framework in Frameworks */,
 				90DABA9C7F69C5D6B4296A1D /* libPods.a in Frameworks */,
+				EAC785421B637ABD00DFF11E /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +194,9 @@
 		2B3BF11A0F59AD0469439FA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAC7853E1B637ABD00DFF11E /* Box.framework */,
+				EAC7853F1B637ABD00DFF11E /* ReactiveCocoa.framework */,
+				EAC785401B637ABD00DFF11E /* Result.framework */,
 				EAC785381B6376C700DFF11E /* CoreLocation.framework */,
 				0D7FDFA1397FD778E206B26D /* libPods.a */,
 			);
@@ -195,6 +226,7 @@
 		EAC784AF1B636C6F00DFF11E /* PizzaPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				EAC785481B637E2600DFF11E /* Model */,
 				EAC784D61B63717E00DFF11E /* FourSquareKit */,
 				EAC784B21B636C6F00DFF11E /* AppDelegate.swift */,
 				EAC784B71B636C6F00DFF11E /* ViewController.swift */,
@@ -322,6 +354,13 @@
 			path = networking;
 			sourceTree = "<group>";
 		};
+		EAC785481B637E2600DFF11E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +373,7 @@
 				EAC784AA1B636C6F00DFF11E /* Frameworks */,
 				EAC784AB1B636C6F00DFF11E /* Resources */,
 				DD818F03BF9D1893EA2C34F7 /* Copy Pods Resources */,
+				EAC785441B637ACD00DFF11E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -618,6 +658,10 @@
 			baseConfigurationReference = 427E8A4C9EBB5C4E59246CC2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PizzaPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -629,6 +673,10 @@
 			baseConfigurationReference = 0E2304844984DB0B0B58D71F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PizzaPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
