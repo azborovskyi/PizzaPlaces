@@ -43,6 +43,8 @@
 		EAC7852D1B63717E00DFF11E /* UXRJSONDeserializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7850D1B63717E00DFF11E /* UXRJSONDeserializableObject.m */; };
 		EAC7852E1B63717E00DFF11E /* UXRBaseNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785111B63717E00DFF11E /* UXRBaseNetworkingEngine.m */; };
 		EAC7852F1B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */; };
+		EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785381B6376C700DFF11E /* CoreLocation.framework */; };
+		EAC7853D1B63795B00DFF11E /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,8 @@
 		EAC785111B63717E00DFF11E /* UXRBaseNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRBaseNetworkingEngine.m; sourceTree = "<group>"; };
 		EAC785121B63717E00DFF11E /* UXRFourSquareNetworkingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRFourSquareNetworkingEngine.h; sourceTree = "<group>"; };
 		EAC785131B63717E00DFF11E /* UXRFourSquareNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXRFourSquareNetworkingEngine.m; sourceTree = "<group>"; };
+		EAC785381B6376C700DFF11E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC785391B6376C700DFF11E /* CoreLocation.framework in Frameworks */,
 				90DABA9C7F69C5D6B4296A1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +166,7 @@
 		2B3BF11A0F59AD0469439FA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAC785381B6376C700DFF11E /* CoreLocation.framework */,
 				0D7FDFA1397FD778E206B26D /* libPods.a */,
 			);
 			name = Frameworks;
@@ -204,6 +210,7 @@
 		EAC784B01B636C6F00DFF11E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAC7853C1B63795B00DFF11E /* New_York_Trip.gpx */,
 				EAC784B11B636C6F00DFF11E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -399,6 +406,7 @@
 			files = (
 				EAC784BB1B636C6F00DFF11E /* Main.storyboard in Resources */,
 				EAC784C01B636C6F00DFF11E /* LaunchScreen.xib in Resources */,
+				EAC7853D1B63795B00DFF11E /* New_York_Trip.gpx in Resources */,
 				EAC784BD1B636C6F00DFF11E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

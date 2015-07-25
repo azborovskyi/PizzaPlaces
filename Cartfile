@@ -1,4 +1,2 @@
 # RAC 3.x beta
-# github "ReactiveCocoa/ReactiveCocoa" "v3.0-RC.1"
-
-github "rexstjohn/FourSquareKit"
+github "ReactiveCocoa/ReactiveCocoa" "v3.0-RC.1"
