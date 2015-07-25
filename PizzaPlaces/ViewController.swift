@@ -11,6 +11,7 @@ import CoreLocation
 import ReactiveCocoa
 import SwiftyJSON
 import CoreData
+import MBProgressHUD
 
 let kNotificationModelUpdated = "ModelUpdated"
 
@@ -72,8 +73,6 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
         if (status == CLAuthorizationStatus.AuthorizedWhenInUse
             || status == CLAuthorizationStatus.AuthorizedAlways) {
             self.locationManager?.startUpdatingLocation()
-        } else {
-            UIAlertView(title: "Please enable location access in order to use the app.", message: nil, delegate: nil, cancelButtonTitle: "OK").show()
         }
     }
 
@@ -126,9 +125,16 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
     
     // ==========
     func fetchRestaurants(coordinate: CLLocationCoordinate2D) {
+        
+        // Display HUD
+        let hud:MBProgressHUD = MBProgressHUD.showHUDAddedTo(self.view.window, animated: true)
+        hud.labelText = "Fetching..."
+        hud.removeFromSuperViewOnHide = true
+        hud.userInteractionEnabled = true
+        
         if let requestSignal = searchRequestForNearbyRestaurants(coordinate) {
             requestSignal.start(next: {
-                [unowned self] data, URLResponse in
+                [unowned self, unowned hud] data, URLResponse in
                 
                 let venues = self.parseJSONResultFromData(data)
                 let appDelegate = UIApplication.sharedApplication().delegate! as! AppDelegate
@@ -147,6 +153,7 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
                 // Notify that data was updated
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                     NSNotificationCenter.defaultCenter().postNotificationName(kNotificationModelUpdated, object: nil)
+                    hud.hide(true)
                 })
             })
         }

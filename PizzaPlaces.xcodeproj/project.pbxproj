@@ -83,6 +83,7 @@
 		EAC785501B638DCC00DFF11E /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantCell.swift; path = Views/RestaurantCell.swift; sourceTree = "<group>"; };
 		EAC785511B638DCC00DFF11E /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantCell.xib; path = Views/RestaurantCell.xib; sourceTree = "<group>"; };
 		EAC785571B63982000DFF11E /* PPDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPDetailsViewController.swift; path = ViewControllers/PPDetailsViewController.swift; sourceTree = "<group>"; };
+		EAC785591B639F0300DFF11E /* PizzaPlaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaPlaces-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +161,7 @@
 				EAC784B21B636C6F00DFF11E /* AppDelegate.swift */,
 				EAC784B91B636C6F00DFF11E /* Main.storyboard */,
 				EAC784BC1B636C6F00DFF11E /* Images.xcassets */,
+				EAC785591B639F0300DFF11E /* PizzaPlaces-Bridging-Header.h */,
 				EAC784BE1B636C6F00DFF11E /* LaunchScreen.xib */,
 				EAC784B41B636C6F00DFF11E /* PizzaPlaces.xcdatamodeld */,
 				EAC784B01B636C6F00DFF11E /* Supporting Files */,
@@ -492,6 +494,7 @@
 			baseConfigurationReference = 427E8A4C9EBB5C4E59246CC2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -499,6 +502,8 @@
 				INFOPLIST_FILE = PizzaPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PizzaPlaces/PizzaPlaces-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -507,6 +512,7 @@
 			baseConfigurationReference = 0E2304844984DB0B0B58D71F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -514,6 +520,7 @@
 				INFOPLIST_FILE = PizzaPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PizzaPlaces/PizzaPlaces-Bridging-Header.h";
 			};
 			name = Release;
 		};
