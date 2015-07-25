@@ -26,6 +26,9 @@
 		EAC7854A1B63815800DFF11E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785491B63815800DFF11E /* SwiftyJSON.framework */; };
 		EAC7854C1B63815F00DFF11E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7854B1B63815F00DFF11E /* Restaurant.swift */; };
 		EAC7854D1B6381DD00DFF11E /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAC785491B63815800DFF11E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAC785521B638DCC00DFF11E /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC785501B638DCC00DFF11E /* RestaurantCell.swift */; };
+		EAC785531B638DCC00DFF11E /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC785511B638DCC00DFF11E /* RestaurantCell.xib */; };
+		EAC785581B63982000DFF11E /* PPDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC785571B63982000DFF11E /* PPDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		EAC785401B637ABD00DFF11E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		EAC785491B63815800DFF11E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		EAC7854B1B63815F00DFF11E /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = DataModel/Restaurant.swift; sourceTree = "<group>"; };
+		EAC785501B638DCC00DFF11E /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantCell.swift; path = Views/RestaurantCell.swift; sourceTree = "<group>"; };
+		EAC785511B638DCC00DFF11E /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantCell.xib; path = Views/RestaurantCell.xib; sourceTree = "<group>"; };
+		EAC785571B63982000DFF11E /* PPDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPDetailsViewController.swift; path = ViewControllers/PPDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,9 +154,10 @@
 		EAC784AF1B636C6F00DFF11E /* PizzaPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				EAC7854F1B638DA100DFF11E /* Views */,
+				EAC7854E1B638D9400DFF11E /* ViewControllers */,
 				EAC785481B637E2600DFF11E /* Model */,
 				EAC784B21B636C6F00DFF11E /* AppDelegate.swift */,
-				EAC784B71B636C6F00DFF11E /* ViewController.swift */,
 				EAC784B91B636C6F00DFF11E /* Main.storyboard */,
 				EAC784BC1B636C6F00DFF11E /* Images.xcassets */,
 				EAC784BE1B636C6F00DFF11E /* LaunchScreen.xib */,
@@ -192,6 +199,24 @@
 				EAC7854B1B63815F00DFF11E /* Restaurant.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EAC7854E1B638D9400DFF11E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAC784B71B636C6F00DFF11E /* ViewController.swift */,
+				EAC785571B63982000DFF11E /* PPDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAC7854F1B638DA100DFF11E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAC785501B638DCC00DFF11E /* RestaurantCell.swift */,
+				EAC785511B638DCC00DFF11E /* RestaurantCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +305,7 @@
 				EAC784BB1B636C6F00DFF11E /* Main.storyboard in Resources */,
 				EAC784C01B636C6F00DFF11E /* LaunchScreen.xib in Resources */,
 				EAC7853D1B63795B00DFF11E /* New_York_Trip.gpx in Resources */,
+				EAC785531B638DCC00DFF11E /* RestaurantCell.xib in Resources */,
 				EAC784BD1B636C6F00DFF11E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC785521B638DCC00DFF11E /* RestaurantCell.swift in Sources */,
+				EAC785581B63982000DFF11E /* PPDetailsViewController.swift in Sources */,
 				EAC784B81B636C6F00DFF11E /* ViewController.swift in Sources */,
 				EAC784B61B636C6F00DFF11E /* PizzaPlaces.xcdatamodeld in Sources */,
 				EAC784B31B636C6F00DFF11E /* AppDelegate.swift in Sources */,
